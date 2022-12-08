@@ -1,6 +1,6 @@
-
+const express = require('express')  
 const app = express()
-const router = require("./router/router");
+const router = require("./router/parser");
 app.use('/', router)
 
 app.listen(8080, () => {

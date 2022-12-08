@@ -1,13 +1,24 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
-import parsedRSS from './components/parser'
+import axios from 'axios';
 
 function App() {
+  const [data, setData] = useState();
+  const urlWithProxy = "http://localhost:8080/api/v1";
+
+  function getDataFromServer() {
+    axios
+      .get(urlWithProxy)
+      .then((res) => setData(res.data))
+      .catch((err) => {
+        console.error(err);
+      });    
+  }
 
   return (
     <div className="App">
-      <parsedRSS></parsedRSS>
+      <h1>{data}</h1>
     </div>
   )
 }
