@@ -1,0 +1,36 @@
+Arguments: 
+  C:\nodejs\node.exe C:\nodejs\node_modules\yarn\bin\yarn.js init
+
+PATH: 
+  C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\Java\jdk1.8.0_291;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\Java\jre1.8.0_311\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Users\foxsj\AppData\Local\Programs\Python\Python39\Scripts;C:\usr\lib\python2.7\dist-packages;C:\Users\foxsj\OneDrive\fnhid\pwntool;C:\Program Files\Debugging Tools for Windows (x64);C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Windows Kits\10\Debuggers\x86;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\Users\foxsj\Documents\flutter\bin;C:\Program Files\Bandizip\;Program Fliles;C:\Users\foxsj\AppData\Roaming\nvm;C:\nodejs;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\foxsj\Downloads\platform-tools_r31.0.2-windows\platform-tools;C:\Program Files\Git\cmd;C:\Users\foxsj\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\foxsj\AppData\Local\Programs\Python\Python39\;C:\Program Files\Java\jdk1.8.0_291\bin;C:\Program Files\Java\jre1.8.0_311\bin;C:\flutter;C:\flutter\bin;C:\Users\foxsj\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\foxsj\AppData\Local\Programs\Python\Python39;C:\Users\foxsj\AppData\Local\Microsoft\WindowsApps;C:\Users\foxsj\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\ESTsoft\ALZip;C:\Users\foxsj\AppData\Local\GitHubDesktop\bin;C:\Users\foxsj\OneDrive\fnhid\pwntool;C:\Users\foxsj\AppData\Local\Programs\Fiddler;C:\Users\foxsj\.dotnet\tools;C:\Users\foxsj\AppData\Roaming\nvm;C:\nodejs;C:\Users\foxsj\AppData\Local\afreeca
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.15.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (C:\Users\foxsj\AppData\Roaming\nvm\v16.15.0\node_modules\yarn\lib\cli.js:137150:13)
+      at Interface.emit (node:events:527:28)
+      at Interface._ttyWrite (node:readline:1081:16)
+      at ReadStream.onkeypress (node:readline:288:10)
+      at ReadStream.emit (node:events:527:28)
+      at emitKeys (node:internal/readline/utils:358:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:internal/readline/emitKeypressEvents:61:36)
+      at ReadStream.emit (node:events:527:28)
+      at addChunk (node:internal/streams/readable:315:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
