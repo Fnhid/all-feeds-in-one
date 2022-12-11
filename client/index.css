@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Gothic A1';
+    font-weight: 100; 
+    src: url("./src/styles/fonts/gothica1-thin.ttf") format('truetype'),
+    url("./src/styles/fonts/gothica1-thin.woff") format('woff'),
+    url("./src/styles/fonts/gothica1-thin.woff2") format('woff2');
+    
+    ;
+}
+@font-face {
+    font-family: 'Gothic A1';
+    font-weight: 200; 
+    src: url("./src/styles/fonts/gothica1-extralight.ttf") format('truetype'),
+    url("./src/styles/fonts/gothica1-extralight.woff") format('woff'),
+    url("./src/styles/fonts/gothica1-extralight.woff2") format('woff2');
+    
+}
+@font-face {
+    font-family: 'Gothic A1';
+    font-weight: 300; 
+    src: url("./src/styles/fonts/gothica1-light.ttf") format('truetype'),
+    url("./src/styles/fonts/gothica1-light.woff") format('woff'),
+    url("./src/styles/fonts/gothica1-light.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Gothic A1';
+    font-weight: 400; 
+    src: url("./src/styles/fonts/gothica1-regular.ttf") format('truetype'),
+    url("./src/styles/fonts/gothica1-regular.woff") format('woff'),
+    url("./src/styles/fonts/gothica1-regular.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Gothic A1';
+    font-weight: 500; 
+    src: url("./src/styles/fonts/gothica1-medium.ttf") format('truetype'),
+    url("./src/styles/fonts/gothica1-medium.woff") format('woff'),
+    url("./src/styles/fonts/gothica1-medium.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Gothic A1';
+    font-weight: 600; 
+    src: url("./src/styles/fonts/gothica1-semibold.ttf") format('truetype'),
+    url("./src/styles/fonts/gothica1-semibold.woff") format('woff'),
+    url("./src/styles/fonts/gothica1-semibold.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Gothic A1';
+    font-weight: 700; 
+    src: url("./src/styles/fonts/gothica1-bold.ttf") format('truetype'),
+    url("./src/styles/fonts/gothica1-bold.woff") format('woff'),
+    url("./src/styles/fonts/gothica1-bold.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Gothic A1';
+    font-weight: 800; 
+    src: url("./src/styles/fonts/gothica1-extrabold.ttf") format('truetype'),
+    url("./src/styles/fonts/gothica1-extrabold.woff") format('woff'),
+    url("./src/styles/fonts/gothica1-extrabold.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Gothic A1';
+    font-weight: 900; 
+    src: url("./src/styles/fonts/gothica1-black.ttf") format('truetype'),
+    url("./src/styles/fonts/gothica1-black.woff") format('woff'),
+    url("./src/styles/fonts/gothica1-black.woff2") format('woff2');
+}
