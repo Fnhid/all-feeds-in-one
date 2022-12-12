@@ -1,17 +1,20 @@
-import {React, useState, useEffect} from 'react';
-import styled from "styled-components";
+import { useContext, useEffect, useState} from 'react';
+import Parser from '../parser.jsx';
+import { ApiContext } from "../context/apiContextProvider";
+const Feed = () => {
+    const [api, setApi] = useState();
 
-const FeedDiv = styled.div`
-    
-`
-
-const feed = (props) => {
+    useEffect(() => {
+        const getApi = () => {
+            const res = "asdf";
+            setApi(res);
+        }
+        getApi();    
+    }, [])
     
     return (
-        <>
-
-        </>
+        <p>test</p>
     )
 }
 
-export default feed;
+export default Feed;

@@ -2,9 +2,9 @@
 
 {
     "sites": [
-        {"id": 1, "name": ["Nvidia", "엔비디아"], "url" : "https://feeds.feedburner.com/nvidiablog", "tag": ["IT"]},
-        {"id": 2, "name": ["Nvidia_Dev", "엔비디아(개발자)"], "url" : "https://developer.nvidia.com/blog/feed", "tag": ["IT", "Dev"]},
-        {"id": 3, "name": ["Apple", "애플"], "url" : "https://www.apple.com/newsroom/rss-feed.rss", "tag": ["IT"]},
-        {"id": 4, "name": ["Apple_Dev", "애플(개발자)"], "url" : "https://developer.apple.com/news/rss/news.rss", "tag": ["IT", "Dev"]}
+        {"id": 1, "name": ["Nvidia", "엔비디아"], "url" : "https://feeds.feedburner.com/nvidiablog"},
+        {"id": 2, "name": ["Nvidia_Dev", "엔비디아(개발자)"], "url" : "https://developer.nvidia.com/blog/feed"},
+        {"id": 3, "name": ["Apple", "애플"], "url" : "https://www.apple.com/newsroom/rss-feed.rss"},
+        {"id": 4, "name": ["Apple_Dev", "애플(개발자)"], "url" : "https://developer.apple.com/news/rss/news.rss"}
     ]
 }
