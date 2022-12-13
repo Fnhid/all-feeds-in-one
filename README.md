@@ -1,4 +1,5 @@
 # all-feeds-in-one
+* 🚧 디자인은 아직 개발중입니다! 🚧
 
 ### Features
 * can get RSS Feeds from multiple sites based on local setting
