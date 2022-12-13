@@ -7,7 +7,7 @@ const StyledInput = styled.input.attrs({type: 'text', placeholder: 'Search Here.
     height: 5%;
     font-size: 15px;
     border-radius: 15px;
-    margin: 10% auto auto 10%;
+    margin: 10% 10%;
     outline: none;
     font-weight: 200;
     background-color: rgb(233,233,233);
