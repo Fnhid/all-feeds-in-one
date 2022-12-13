@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react'
-import Parser from './parser';
+// import Parser from './parser';
 import styled from 'styled-components';
 import Search from './components/search';
+import Feed from './components/feed';
 import {SearchContextProvider} from './context/searchContextProvider';
+import { ApiContextProvider } from './context/apiContextProvider';
 
 
 
@@ -31,17 +33,18 @@ function App() {
   return (
     <div className="App">
       <SearchContextProvider>
+      <ApiContextProvider>
       <RootDiv>
         
           <LeftDiv>
             <Search />
-            Left
           </LeftDiv>
           <RightDiv>
-            React twost
+            <Feed />
           </RightDiv>
         
       </RootDiv>
+      </ApiContextProvider>
       </SearchContextProvider>
     </div>
   )

@@ -20,11 +20,13 @@ const StyledInput = styled.input.attrs({type: 'text', placeholder: 'Search Here.
 const Search = () => {
     const { searchVal, SearchContextDispatch } = useContext(SearchContext);
     const onChangeVal = (e) => {
-        SearchContextDispatch({ type: "MOD", value: searchVal })
-        console.log(e.target.value);
+        const searchVal = e.target.value;
+        SearchContextDispatch({ type: "MOD", value: searchVal });
     }
     return (
+        <>
         <StyledInput onChange={onChangeVal}></StyledInput>
+        </>
     )
 
 }

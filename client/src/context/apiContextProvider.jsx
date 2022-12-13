@@ -2,7 +2,7 @@ import { useReducer, createContext } from "react";
 
 const ApiContext = createContext();
 const initState = {
-    apiVal: ''
+    apiVal: {},
 };
 
 const reducer = (state, action) => {

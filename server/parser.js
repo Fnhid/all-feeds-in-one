@@ -16,21 +16,23 @@ const parseRSS = async (sites) => {
                 title: item.title,
                 link: item.link, 
                 date: item.pubDate,
-                siteId: site.id
+                siteName: site.name
             }
         })
         )
     }
+
+    
     let contents = await Promise.all(sites.map(function(site){
         return parseContent(site);
     }));
-
-    return {
+    const contentsOne = [].concat(...contents);
+    
+    return ({
         "sites": sites,
-        "contents": contents
-    };
+        "contents": contentsOne
+    });
 } 
-
 
 
 router.get('/', async (req, res) => {
