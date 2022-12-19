@@ -58,7 +58,7 @@ const Feed = () => {
   let filterApi = []; 
   // console.log(apis)
   for (api of apis.contents){
-    if (reg.test(api.title) || reg.test(api.siteName)){
+    if (reg.test(api.title) || reg.test(api.siteName) || reg.test(api.date)){
       filterApi.push(api);
     }
   };
