@@ -15,7 +15,7 @@ yarn
 ```
 ### How to Test | 테스트 방법
 ```
-yarn run server
+yarn dev
 ```
 * If you want to config sites, please edit server/rss.json
 * 사이트를 설정하고 싶다면, server/rss.json을 수정하세요. 아래와 같이 추가할 수 있습니다.
