@@ -26,4 +26,4 @@ yarn dev
 ---
 ### To-Do
 * More Filters
-* 
+* TS Migration
