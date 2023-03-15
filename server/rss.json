@@ -5,6 +5,8 @@
         {"id": 1, "name": "Nvidia", "url" : "https://feeds.feedburner.com/nvidiablog"},
         {"id": 2, "name": "Nvidia_Dev", "url" : "https://developer.nvidia.com/blog/feed"},
         {"id": 3, "name": "Apple", "url" : "https://www.apple.com/newsroom/rss-feed.rss"},
-        {"id": 4, "name": "Apple_Dev", "url" : "https://developer.apple.com/news/rss/news.rss"}
+        {"id": 4, "name": "Apple_Dev", "url" : "https://developer.apple.com/news/rss/news.rss"},
+        {"id": 5, "name": "GeekNews", "url": "https://news.hada.io/rss/news"},
+        {"id": 6, "name": "SlashDot", "url": "https://rss.slashdot.org/Slashdot/slashdotMain"}
     ]
 }
