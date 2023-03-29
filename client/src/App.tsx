@@ -9,7 +9,7 @@ import { ApiContextProvider } from './context/apiContextProvider';
 
 const StyledTitle = styled.p`
   font-weight: 900;
-  font-size: 200%;
+  font-size: 170%;
   margin: 10% auto 1% auto
 `
 const RootDiv = styled.div`
