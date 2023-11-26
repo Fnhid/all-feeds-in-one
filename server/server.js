@@ -4,5 +4,5 @@ const router = require("./parser");
 app.use('/api', router)
 
 app.listen(8080, () => {
-    console.log('listening on 8080');
+    console.log('Listening on 8080');
 })
