@@ -47,20 +47,19 @@ function App() {
   return (
     <div className="App">
       <SearchContextProvider>
-      <ApiContextProvider>
-      <RootDiv>
-        
-          <LeftDiv>
-            <StyledTitle>
-              AllFeedsInOne
-            </StyledTitle>
-            <Search />
-          </LeftDiv>
-          <RightDiv>
-            <Feed />
-          </RightDiv>
-      </RootDiv>
-      </ApiContextProvider>
+        <ApiContextProvider>
+          <RootDiv>
+            <LeftDiv>
+              <StyledTitle>
+                AllFeedsInOne
+              </StyledTitle>
+              <Search />
+            </LeftDiv>
+            <RightDiv>
+              <Feed />
+            </RightDiv>
+          </RootDiv>
+        </ApiContextProvider>
       </SearchContextProvider>
     </div>
   )
